@@ -11,10 +11,10 @@ const config = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'Keyture', // Usually your GitHub org/user name.
-  projectName: 'MUD', // Usually your repo name.
+  projectName: 'MUD-Docs', // Usually your repo name.
 
   presets: [
     [
