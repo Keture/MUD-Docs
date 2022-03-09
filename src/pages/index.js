@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - A Open Source Mark Down/Up Library.`}
+      description="MUD Library provides a set of base classes for generating Mark down or vice-versa">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
