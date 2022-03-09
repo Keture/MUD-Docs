@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/basics-of-markdown/intro">
             Get started
           </Link>
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - A Open Source Mark Down/Up Library.`}
+      title={`${siteConfig.title} - A Open Source Mark Down/Up Library`}
       description="MUD Library provides a set of base classes for generating Mark down or vice-versa">
       <HomepageHeader />
       <main>

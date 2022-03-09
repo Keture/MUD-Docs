@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MUD',
-  tagline: 'A markdown generator library',
+  title: 'Mark Up Down',
+  tagline: 'A Open Source Mark Down/Up Library',
   url: 'https://keture.github.io',
   baseUrl: '/MUD-Docs/',
   onBrokenLinks: 'ignore',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/Keture/MUD-Docs/blob/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Keture/MUD-Docs/blob/main/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
