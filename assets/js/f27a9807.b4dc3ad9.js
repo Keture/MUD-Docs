@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[735],{2957:function(s){s.exports=JSON.parse('{"allTagsPath":"/MUD-Docs/blog/tags","slug":"/MUD-Docs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/MUD-Docs/blog/tags/facebook"}')}}]);

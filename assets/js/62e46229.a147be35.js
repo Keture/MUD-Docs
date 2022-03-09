@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3],{7510:function(s){s.exports=JSON.parse('{"allTagsPath":"/MUD-Docs/blog/tags","slug":"/MUD-Docs/blog/tags/hola","name":"hola","count":1,"permalink":"/MUD-Docs/blog/tags/hola"}')}}]);
