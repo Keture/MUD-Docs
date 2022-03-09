@@ -12,7 +12,7 @@ export default function HomepageFeatures() {
   };
 
   const [code, setCode] = React.useState(
-    `# Headding\n## Sub Headding\n`
+    `# Heading\n## Sub Heading\n`
   );
 
   return (
@@ -21,13 +21,13 @@ export default function HomepageFeatures() {
         <div className={styles.container}>
           <CodeEditor
             value={code}
-            language="markdown"
-            placeholder="Please enter JS code."
+            language="js"
+            placeholder="Write what you want here..."
             onChange={(evn) => preview(evn)}
-            padding={12}
+            padding={15}
+            minHeight={60}
             style={{
-              fontSize: 12,
-              backgroundColor: "#f5f5f5",
+              fontSize: 14,
               fontFamily:
                 "ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace",
             }}

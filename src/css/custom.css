@@ -19,14 +19,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #bdd6ff;
-  --ifm-color-primary-dark: #91baff;
-  --ifm-color-primary-darker: #7aadff;
-  --ifm-color-primary-darkest: #3883ff;
-  --ifm-color-primary-light: #e9f2ff;
-  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary: #c6d2e6;
+  --ifm-color-primary-dark: #a8bbd9;
+  --ifm-color-primary-darker: #99afd2;
+  --ifm-color-primary-darkest: #6d8cbf;
+  --ifm-color-primary-light: #e4e9f3;
+  --ifm-color-primary-lighter: #f3f5fa;
   --ifm-color-primary-lightest: #ffffff;
-  --ifm-background-color: #000000;
 }
 
 .docusaurus-highlight-code-line {
@@ -40,17 +39,23 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+html[data-theme='dark'] .hero {
+  background-color: #254579;
+  color: #fff;
+  --ifm-footer-title-color: #000;
+}
+
 html[data-theme='dark'] .footer {
-  background-color: #bdd6ff;
-  color: black;
+  background-color: #254579;
+  color: #fff;
 }
 
 html[data-theme='dark'] .footer a {
-  color: #000;
+  color: #fff;
 }
 
 html[data-theme='dark'] .footer a:hover {
-  color: #254579;
+  color: #bdd6ff;
 }
 
 html[data-theme='light'] .footer {
