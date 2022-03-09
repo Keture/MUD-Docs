@@ -1,3 +1,5 @@
-# Docsuarus
+# MUD - An Open-Source Mark Down/Up Library
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+MUD Library provides a set of base classes for generating Mark down or vice-versa
+
+This library is created by [Keture](https://keture.com), a software company based on Mannar.

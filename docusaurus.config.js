@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mark Up Down',
-  tagline: 'A Open Source Mark Down/Up Library',
+  tagline: 'An Open-Source Mark Down/Up Library',
   url: 'https://keture.github.io',
   baseUrl: '/MUD-Docs/',
   onBrokenLinks: 'ignore',
