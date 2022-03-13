@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt='hero logo' src="./src/assets/keture.png" width="50%" height="50%" />
+<img alt='hero logo' src="./static/img/keture.png" width="50%" height="50%" />
 
 </div>
 

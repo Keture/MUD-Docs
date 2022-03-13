@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Function MD()
+# Installation
 
 ```jsx title="/src/components/md.js"
 import {mu} from "@mark-up-down.js"

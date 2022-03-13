@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'Keyture', // Usually your GitHub org/user name.
+  organizationName: 'Keture', // Usually your GitHub org/user name.
   projectName: 'MUD-Docs', // Usually your repo name.
 
   presets: [
@@ -63,6 +63,14 @@ const config = {
           },
         ],
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '<b>If you like MUD, give it a ⭐️ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Keture/MUD-Docs">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Keture/MUD-Docs">Twitter</a></b>',
+        backgroundColor: '#E04E29',
+        textColor: '#fff',
+        isCloseable: true,
+      },
       footer: {
         style: 'dark',
         links: [
@@ -98,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Keyture. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Keture. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
